@@ -6,6 +6,7 @@
 
 from . import freeze_transform_ops
 from . import freeze_transform_ui
+from . import freeze_transform_props
 from .addon import Addon
 
 
@@ -24,6 +25,7 @@ bl_info = {
 
 def register():
     if not Addon.dev_mode():
+        freeze_transform_props.register()
         freeze_transform_ops.register()
         freeze_transform_ui.register()
     else:
@@ -34,6 +36,7 @@ def unregister():
     if not Addon.dev_mode():
         freeze_transform_ui.unregister()
         freeze_transform_ops.unregister()
+        freeze_transform_props.unregister()
 
 
 if __name__ == '__main__':

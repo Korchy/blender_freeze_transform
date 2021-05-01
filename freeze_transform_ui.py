@@ -19,8 +19,8 @@ class FREEZE_TRANSFORM_PT_panel(Panel):
         layout = self.layout
         layout.operator('freeze_transform.freeze', icon='FREEZE')
         row = layout.row()
-        row.operator('freeze_transform.freeze', icon='RECOVER_LAST')
-        row.operator('freeze_transform.freeze', icon='EMPTY_DATA')
+        row.operator('freeze_transform.to_frozen', icon='RECOVER_LAST')
+        row.operator('freeze_transform.reset_transform', icon='EMPTY_DATA')
 
 
 def register():
