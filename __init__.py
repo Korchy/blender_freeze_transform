@@ -15,7 +15,7 @@ bl_info = {
     'category': 'Object',
     'author': 'Nikita Akimov',
     'version': (1, 0, 0),
-    'blender': (2, 92, 0),
+    'blender': (2, 83, 0),
     'location': '3D Viewport',
     'wiki_url': 'https://b3d.interplanety.org/en/blender-add-on-freeze-transform/',
     'tracker_url': 'https://b3d.interplanety.org/en/blender-add-on-freeze-transform/',
