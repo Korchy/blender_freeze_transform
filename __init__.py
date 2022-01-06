@@ -38,7 +38,7 @@ def register():
 
 def unregister():
     if not Addon.dev_mode():
-        freeze_transform_keymap.register()
+        freeze_transform_keymap.unregister()
         freeze_transform_ui.unregister()
         freeze_transform_ops.unregister()
         freeze_transform_props.unregister()
