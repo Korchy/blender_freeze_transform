@@ -15,11 +15,11 @@ Saving and returning transformations works both with a single object and with al
 
 Current add-on version
 -
-1.0.0.
+1.0.1.
 
 Blender versions
 -
-2.83, 2.90, 2.91, 2.92
+2.83, 2.90, 2.91, 2.92, 2.93, 3.0, 3.1
 
 Location and call
 -
@@ -33,6 +33,8 @@ Installation
 Version history
 -
 
+1.0.1.
+- Added keymap for add-on main functional
+
 1.0.0.
 - This release.
-
